@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Banner Section Styles */
+  .home-banner {
+    background-image: url('https://via.placeholder.com/1920x600'); /* Replace with school image */
+    background-size: cover;
+    background-position: center;
+    color: #061A40;
+    text-align: center;
+    padding: 20px 20px;
+    height: 30%;
+  }
+  .home-banner img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .home-banner-content h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .home-banner-content p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* School Details Section Styles */
+  .home-school-details {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .home-school-details h3 {
+    font-size: 28px;
+    color: #003366;
+  }
+  
+  .home-school-details p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  

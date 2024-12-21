@@ -1,0 +1,125 @@
+/* Transport Worker Container */
+.transport-worker-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+/* Header Section */
+.transport-header {
+  background-color: #003366;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.transport-header h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.transport-header h2 {
+  font-size: 28px;
+  color: white;
+  margin: 0;
+}
+
+.transport-header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Actions Section */
+.transport-actions {
+  margin: 40px 0;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown Buttons */
+.dropdown-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dropdown-button {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dropdown-button.active {
+  background-color: #0056b3;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.dropdown-content label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.action-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Share Location Button */
+.share-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.share-button:hover {
+  background-color: #45a049;
+}
+
+/* SOS Button */
+.sos-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.sos-button:hover {
+  background-color: #e53935;
+}
+
+/* Feedback Message */
+.feedback-message {
+  margin-top: 20px;
+  text-align: center;
+  color: #003366;
+  font-weight: bold;
+}

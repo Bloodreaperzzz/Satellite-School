@@ -1,0 +1,36 @@
+
+.campus-container{
+    margin: 0;
+    height: auto;
+    border-radius: 10px;
+}
+
+.campus-container .mains{
+    justify-content: center;
+    color: aliceblue;
+    background-color: #061A40;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.mains img{
+    margin-bottom: 30px;
+}
+.mains p{
+    margin: 5px;
+}
+
+.mains h1{
+    font-weight: 800;
+    font-size: 4rem;
+   color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.mains hr{
+    width: 50%;
+    height: 2px;
+    justify-content: center;
+    margin-left: 25%;
+}
+

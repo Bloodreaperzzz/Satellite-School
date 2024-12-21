@@ -1,0 +1,62 @@
+/* General Navbar Styling */
+
+.navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #061A40; 
+    padding: 30px 40px;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+    flex: sticky;
+    margin-top: 2px;
+  }
+
+  .mukta-extrabold {
+    font-family: "Mukta", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  /* School Logo and Name */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo .logo {
+    width: 50px; /* Logo size */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo .school-name {
+    font-size: 28px;
+    color: #B9D6F2; 
+    margin: 0;
+  }
+  
+  /* Navbar Links Styling */
+  .navbar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links ul li {
+    margin-left: 25px;
+  }
+  
+  .navbar-links ul li a {
+    text-decoration: none;
+    color: #FFF; /* White text color */
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .navbar-links ul li a:hover {
+    color: #B9D6F2; /* Change to golden yellow when hovered */
+    text-decoration: underline;
+  }
+  

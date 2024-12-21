@@ -1,0 +1,183 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the non-academic details page */
+  .non-academic-details-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Section */
+  .non-academic-header {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 40px;
+  }
+  
+  .non-academic-header h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .non-academic-header p {
+    font-size: 18px;
+  }
+  
+  /* School Houses Section */
+  .school-houses {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .school-houses h2 {
+    font-size: 24px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Clubs Section */
+  .clubs-section {
+    margin-top: 40px;
+    background-color: lightgray;;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clubs-section h2 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+  }
+  
+  .clubs-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .club-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #003366;
+    border: 2px solid #003366;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .club-card h3 {
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 500;
+    color: #003366;
+  }
+
+  .academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+  }
+  
+  .academic-table th, .academic-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .academic-table th {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .academic-table td {
+    background-color: #f9f9f9;
+  }
+  
+
+  .club-card img {
+    width: 15rem;
+    height: 10rem;
+  }
+  
+  .club-card p {
+    font-size: 16px;
+    color: #003366;
+  }
+  
+  /* Badges Section */
+  .badges-section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badges-section h2 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+  }
+  
+  .badges-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .badge-card {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .badge-card h3 {
+    font-size: 22px;
+    color: #003366;
+  }
+  
+  .badge-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Staff Section */
+  .staff-section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .staff-section h2 {
+    font-size: 24px;
+    color: #003366;
+    text-align: center;
+  }
+  
+  .staff-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .staff-card {
+    background-color: #f9f9f9;
+  }  

@@ -1,0 +1,30 @@
+.selector-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.selector-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.selector-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.selector-button:hover {
+  background-color: #0056b3;
+}
